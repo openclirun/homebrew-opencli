@@ -8,7 +8,7 @@ class Opencli < Formula
   depends_on macos: :sonoma
 
   url "https://github.com/openclirun/opencli/releases/download/v0.1.0/opencli-0.1.0-macos-arm64.tar.gz"
-  sha256 "996fd6b7cc1850bdd205ce934af16b80fae9f41ed00e752e1428791ea628eb79"
+  sha256 "d77bcc21adab0767699782e9cba408a2367c833ce1ea44fe5421e21bea403d12"
 
   def install
     libexec.install "opencli"
